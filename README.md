@@ -35,6 +35,8 @@ composer require mix/guzzle-hook
 
 理论上基于 Guzzle 库开发的 SDK 都可使用本库 Hook，下面是已知的支持 Hook 的第三方库清单：
 
+> 欢迎提交 PR 更新此清单
+
 - [alibabacloud/client](https://help.aliyun.com/document_detail/112186.html?spm=a2c4g.11186623.6.635.156d6a4aqm4K0Z)
 
 ## License
