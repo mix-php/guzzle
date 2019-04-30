@@ -14,7 +14,7 @@
 使用 Composer 安装：
 
 ```
-composer require mix/guzzle-stream
+composer require mix/guzzle-hook
 ```
 
 在项目的 `composer.json` 文件中增加 `extra` 配置项，如下：
@@ -22,7 +22,7 @@ composer require mix/guzzle-stream
 ```
 "extra": {
     "include_files": [
-      "vendor/mix/guzzle-stream/src/functions_include.php"
+      "vendor/mix/guzzle-hook/src/functions_include.php"
     ]
 }
 ```

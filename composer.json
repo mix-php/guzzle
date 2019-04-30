@@ -7,7 +7,7 @@
     "mix",
     "swoole"
   ],
-  "homepage": "https://github.com/mix-php/guzzle-stream",
+  "homepage": "https://github.com/mix-php/guzzle-hook",
   "license": "Apache-2.0",
   "authors": [
     {
