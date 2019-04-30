@@ -1,0 +1,23 @@
+{
+  "name": "mix/guzzle-stream",
+  "description": "让 Guzzle 支持 Swoole 的 PHP Stream Hook。",
+  "type": "library",
+  "keywords": [
+    "guzzle",
+    "mix",
+    "swoole"
+  ],
+  "homepage": "https://github.com/mix-php/guzzle-stream",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "liu,jian",
+      "email": "coder.keda@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/functions_include.php"
+    ]
+  }
+}
