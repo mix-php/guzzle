@@ -7,6 +7,8 @@
 支持的 Guzzle 版本：
 
 - guzzle-6.0 `(>= 6.0.2)`
+- guzzle-6.1
+- guzzle-6.2
 - guzzle-6.3
 
 使用 Composer 安装：
