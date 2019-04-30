@@ -1,10 +1,19 @@
 <?php
 
-/* @var GuzzleHttp\Client $class */
+// 判断环境
 $class = 'GuzzleHttp\Client';
 if (!class_exists($class)) {
     return;
 }
+$class = 'Swoole\Runtime';
+if (!class_exists($class)) {
+    return;
+}
+
+// 开启 Swoole Hook
+\Swoole\Runtime::enableCoroutine(true);
+
+// 替换默认 Handler
 $ver = $class::VERSION;
 $ver = explode('.', $ver);
 array_pop($ver);
