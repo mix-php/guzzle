@@ -4,6 +4,11 @@
 
 ## 安装
 
+支持的 Guzzle 版本：
+
+- guzzle-6.0 `(>= 6.0.2)`
+- guzzle-6.3
+
 使用 Composer 安装：
 
 ```
@@ -19,13 +24,6 @@ composer require mix/guzzle-stream
     ]
 }
 ```
-
-支持的 Guzzle 版本：
-
-- guzzle-6.0.2
-- guzzle-6.3.0
-- guzzle-6.3.2
-- guzzle-6.3.3
 
 ## License
 

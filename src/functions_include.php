@@ -6,6 +6,9 @@ if (!class_exists($class)) {
     return;
 }
 $ver = $class::VERSION;
+$var = explode('.', $ver);
+array_pop($var);
+$var = implode('.', $var);
 $dir = "guzzle-{$ver}";
 if (!is_dir($dir)) {
     return;
