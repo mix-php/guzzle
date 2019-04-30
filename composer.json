@@ -15,6 +15,9 @@
       "email": "coder.keda@gmail.com"
     }
   ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
   "autoload": {
     "files": [
       "src/functions_include.php"
