@@ -16,10 +16,10 @@
     }
   ],
   "require": {
-    "guzzlehttp/guzzle": "^6.3"
+    "funkjedi/composer-include-files": "^1.0"
   },
-  "autoload": {
-    "files": [
+  "extra": {
+    "include_files": [
       "src/functions_include.php"
     ]
   }
