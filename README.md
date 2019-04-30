@@ -31,6 +31,12 @@ composer require mix/guzzle-hook
 
 因为 Swoole 的 Hook 只支持 PHP Stream，Guzzle 库默认是使用 CURL 扩展，导致无法 Hook 为协程，本库修改了 Guzzle 的默认 Handler 为 StreamHandler，让依赖 Guzzle 的第三方库无需修改代码即可使用 Swoole 协程。
 
+## 支持的第三方库
+
+理论上基于 Guzzle 库开发的 SDK 都可使用本库 Hook，下面是已知的支持 Hook 的第三方库清单：
+
+- [alibabacloud/client](https://help.aliyun.com/document_detail/112186.html?spm=a2c4g.11186623.6.635.156d6a4aqm4K0Z)
+
 ## License
 
 Apache License Version 2.0, http://www.apache.org/licenses/
