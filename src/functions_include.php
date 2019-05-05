@@ -1,12 +1,10 @@
 <?php
 
 // 判断环境
-$class = 'GuzzleHttp\Client';
-if (!class_exists($class)) {
+if (!class_exists('GuzzleHttp\Client')) {
     return;
 }
-$class = 'Swoole\Runtime';
-if (!class_exists($class)) {
+if (!class_exists('Swoole\Runtime')) {
     return;
 }
 
@@ -14,12 +12,13 @@ if (!class_exists($class)) {
 \Swoole\Runtime::enableCoroutine(true);
 
 // 替换默认 Handler
-$ver = $class::VERSION;
-$ver = explode('.', $ver);
+$class = 'GuzzleHttp\Client';
+$ver   = $class::VERSION;
+$ver   = explode('.', $ver);
 array_pop($ver);
 $ver = implode('.', $ver);
-$dir = "guzzle-{$ver}";
-if (!is_dir($dir)) {
+$dir = "/guzzle-{$ver}";
+if (!is_dir(__DIR__ . "/{$dir}")) {
     return;
 }
 require __DIR__ . "/functions.php";
