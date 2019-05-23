@@ -16,6 +16,6 @@
     }
   ],
   "require": {
-    "funkjedi/composer-include-files": "^1.0"
+    "0.0.0/composer-include-files": "^1.0"
   }
 }
