@@ -43,7 +43,7 @@ composer dump-autoload
 
 > 欢迎提交 PR 更新此清单
 
-- [alibabacloud/client](https://help.aliyun.com/document_detail/112186.html?spm=a2c4g.11186623.6.635.156d6a4aqm4K0Z)
+- [alibabacloud/client](https://github.com/aliyun/openapi-sdk-php-client)
 - [TencentCloud/tencentcloud-sdk-php](https://github.com/TencentCloud/tencentcloud-sdk-php)
 
 ## License
