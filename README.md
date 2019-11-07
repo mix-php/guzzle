@@ -10,6 +10,7 @@
 - guzzle-6.1
 - guzzle-6.2
 - guzzle-6.3
+- guzzle-6.4
 
 使用 Composer 安装：
 
